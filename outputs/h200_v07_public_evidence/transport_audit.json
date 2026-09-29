@@ -1,0 +1,30 @@
+{
+  "h200-v07-correctness-001": {
+    "using_ib": 50,
+    "ib_channels": 272,
+    "gdrdma": 272,
+    "socket_channels": 0,
+    "log_files": 16
+  },
+  "h200-v07-smoke-001": {
+    "using_ib": 150,
+    "ib_channels": 976,
+    "gdrdma": 976,
+    "socket_channels": 0,
+    "log_files": 48
+  },
+  "h200-v07-final-001": {
+    "using_ib": 450,
+    "ib_channels": 2928,
+    "gdrdma": 2928,
+    "socket_channels": 0,
+    "log_files": 144
+  },
+  "h200-v07-application-001": {
+    "using_ib": 450,
+    "ib_channels": 1584,
+    "gdrdma": 1584,
+    "socket_channels": 0,
+    "log_files": 144
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "description": "Redacted copies of independently audited H200 hardware measurements",
+  "private_evidence_archive_sha256": "219776c7e47ba5ddcd47a855c6a50e9d053b5c3f0b69d1ff159d489e99e85660",
+  "private_evidence_files_audited": 369,
+  "source_sha256": {
+    "fabricflow/benchmark.py": "b202e13550bf823758537c3e681e2b30edc9f21b21bff71fb4175d73d390f26d",
+    "fabricflow/runtime.py": "7abf45b43813970b16ae24690711806069eb229afbfa3e89d3d1ebeb82843415",
+    "fabricflow/correctness.py": "1ddbb35ea36268ba333ab38173f3a4231557a788d6bb7f9d4ffee49facaef9dc",
+    "fabricflow/application_benchmark.py": "437101fe6b29c07471ba340ba1aa755873ae0ff62a868b9a57e80da1bc18dc1a",
+    "fabricflow/application_report.py": "2421834ba7d2d17d165adef688fc1be84aeaf679174660094c869be8efbbd53f",
+    "fabricflow/h200_policy.py": "a0134a4a266d0d22af1576448d48f65a31072fbbbc39257440c603ae2816aa10",
+    "pyproject.toml": "ee3f44df7f9afef045d974a319dcd3b93ffa20f6d8112089fe16b3f0ab374e5a"
+  },
+  "nodes": 2,
+  "gpus_per_node": 8,
+  "gpu_model": "NVIDIA H200",
+  "pytorch": "2.13.0+cu130",
+  "cuda_runtime": "13.0",
+  "nccl": "2.29.7",
+  "transport": "RoCE / GPUDirect RDMA, verified by NCCL NET/IB/GDRDMA logs",
+  "redacted_fields": [
+    "cluster_id",
+    "hostname",
+    "hostnames",
+    "job_id",
+    "node_ids",
+    "node_rank_counts",
+    "rank0_host"
+  ],
+  "raw_rank_logs_published": false,
+  "independent_audit_command": "python -m fabricflow.h200_v07_evidence PRIVATE_BUNDLE.zip --project-root ."
+}

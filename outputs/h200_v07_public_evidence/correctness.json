@@ -1,0 +1,735 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "2026-09-16T13:28:14.442722+00:00",
+  "provenance": "hardware_correctness_validation",
+  "run_id": "h200-v07-correctness-001",
+  "nodes": 2,
+  "gpus_per_node": 8,
+  "world_size": 16,
+  "gpu_names": [
+    "NVIDIA H200"
+  ],
+  "cases": [
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 1,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float32",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "float16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 1,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 7,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 9,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 1025,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "nccl_allreduce",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_leader",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "strategy": "hierarchical_rail",
+      "dtype": "bfloat16",
+      "elements": 262147,
+      "repetition": 2,
+      "correct": true,
+      "max_abs_error": 0.0
+    }
+  ],
+  "correct": true
+}

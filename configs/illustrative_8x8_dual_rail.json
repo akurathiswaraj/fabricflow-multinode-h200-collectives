@@ -1,0 +1,26 @@
+{
+  "name": "illustrative-8x8-four-rail",
+  "nodes": 8,
+  "gpus_per_node": 8,
+  "rails_per_node": 4,
+  "intra_node": {
+    "name": "intra-node-fabric",
+    "bandwidth_gbps": 7200.0,
+    "latency_us": 1.2,
+    "efficiency": 0.82,
+    "contention": 1.0
+  },
+  "inter_node": {
+    "name": "rdma-rail",
+    "bandwidth_gbps": 400.0,
+    "latency_us": 4.5,
+    "efficiency": 0.80,
+    "contention": 1.0
+  },
+  "metadata": {
+    "provenance": "illustrative inputs for local simulation; replace with measured cluster values",
+    "hardware_claim": false,
+    "rank_mapping": "contiguous ranks per node"
+  }
+}
+

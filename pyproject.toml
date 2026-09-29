@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabricflow-collectives"
+version = "0.7.0.dev0"
+description = "Topology-aware planning and benchmarking for multi-node GPU all-reduce"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Swaraj Akurathi"}]
+dependencies = []
+
+[project.optional-dependencies]
+runtime = ["torch>=2.4", "numpy>=2,<3"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+fabricflow = "fabricflow.cli:main"
+fabricflow-bench = "fabricflow.benchmark:main"
+fabricflow-doctor = "fabricflow.diagnostics:main"
+fabricflow-report = "fabricflow.report:main"
+fabricflow-h200-audit = "fabricflow.h200_evidence:main"
+fabricflow-h200-policy = "fabricflow.h200_policy:main"
+fabricflow-correctness = "fabricflow.correctness:main"
+fabricflow-application-bench = "fabricflow.application_benchmark:main"
+fabricflow-application-report = "fabricflow.application_report:main"
+
+[tool.setuptools.packages.find]
+include = ["fabricflow*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
